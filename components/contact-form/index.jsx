@@ -71,6 +71,10 @@ const Input = styled.input`
   outline: none;
 
   font-size: 1.1rem;
+
+  :focus {
+    background-color: transparent;
+  }
 `;
 
 const Button = styled.button`
