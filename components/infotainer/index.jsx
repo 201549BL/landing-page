@@ -9,7 +9,6 @@ import Text from "../shared/typography/Text";
 const StyledInfotainer = styled.section`
   position: relative;
 
-  display: grid;
   gap: 1rem;
 
   background: #ddd;
