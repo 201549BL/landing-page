@@ -124,35 +124,6 @@ const Hero = () => {
           </div>
         </div>
       </StyledHero>
-
-      <button
-        onClick={() =>
-          addNotification({
-            content: <EmailSent />,
-            bgColor: "lightgreen",
-            life: 5000,
-            duration: 700,
-            key: Math.random() * 10000,
-            id: Math.random() * 10000,
-          })
-        }
-      >
-        SUCCESS
-      </button>
-      <button
-        onClick={() =>
-          addNotification({
-            content: <EmailSent />,
-            bgColor: "pink",
-            life: 5000,
-            duration: 700,
-            key: Math.random() * 10000,
-            id: Math.random() * 10000,
-          })
-        }
-      >
-        DANGER
-      </button>
     </StackingContainer>
   );
 };
